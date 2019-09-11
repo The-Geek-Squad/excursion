@@ -1,16 +1,41 @@
 body {
     background-color: black;
     text-align: center;
-}
-
-header h1 {
     font-family: Verdana;
-    font-weight: normal;
-    font-size: 50px;
     color: white;
 }
 
-header a {
+header h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+a {
     color: Aquamarine;
     font-size: 16px;
+}
+
+.container h1 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.container p {
+    font-size: 21px;
+    color: gray;
+}
+
+.container img {
+    display: block;
+    margin: 30px auto;
+}
+
+.container video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: right;
+    color: gray;
 }
